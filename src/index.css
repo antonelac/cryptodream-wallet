@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap");
+
+* html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.bg-welcome {
+  background-color: rgb(0, 21, 41);
+}
+
+.bg-services {
+  background-color: rgb(0, 21, 41);
+}
+
+.bg-footer {
+  background-color:rgb(0, 21, 41);
+}
+
+.blue-glassmorphism {
+  background: rgb(39, 51, 89, 0.4);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.eth-card {
+  background-color:#a099ff;
+  background-image: 
+    radial-gradient(at 88% 35%, hsla(222,81%,65%,1) 0, transparent 50%),  
+    radial-gradient(at 53% 75%, hsla(190,50%,68%,1) 0, transparent 45%);
+}
+
+.eth-card2 {
+  background-color:#4e4999;
+  background-image: 
+    radial-gradient(at 88% 35%, hsla(222,81%,65%,1) 0, transparent 50%),  
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
