@@ -41,12 +41,6 @@ body {
     radial-gradient(at 53% 75%, hsla(190,50%,68%,1) 0, transparent 45%);
 }
 
-.eth-card2 {
-  background-color:#4e4999;
-  background-image: 
-    radial-gradient(at 88% 35%, hsla(222,81%,65%,1) 0, transparent 50%),  
-}
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

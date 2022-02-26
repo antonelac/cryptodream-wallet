@@ -36,12 +36,12 @@ const Welcome = () => {
                     </button>
 
                    <div className="grid sm:grid-cols-3 grid-cols-2 w-full mt-10">
-                     <div className={`rounded-tl-2x1 ${commonStyles}`}>Reliability</div>
+                     <div className={`rounded-tl-2xl ${commonStyles}`}>Reliability</div>
                      <div className={commonStyles}>Security</div>
-                     <div className={`rounded-tr-2x1 ${commonStyles}`}>Ethereum</div>
-                     <div className={`rounded-bl-2x1 ${commonStyles}`}>Web 3.0</div>
+                     <div className={`rounded-tr-2xl ${commonStyles}`}>Ethereum</div>
+                     <div className={`rounded-bl-2xl ${commonStyles}`}>Web 3.0</div>
                      <div className={commonStyles}>Low fees</div>
-                     <div className={`rounded-br-2x1 ${commonStyles}`}>Blockchain</div>
+                     <div className={`rounded-br-2xl ${commonStyles}`}>Blockchain</div>
                    </div>
                 </div>
 
@@ -65,7 +65,7 @@ const Welcome = () => {
                       </div>
                    </div>
 
-                   <div className="p-5 sm:w-96 w-full flex flex-col justify-start items-center eth-card2">
+                   <div className="p-5 sm:w-96 w-full flex flex-col rounded-xl justify-start items-center blue-glassmorphism">
                        <Input placeholder="Adress to" name="addressto" type="text" handleChange={() => {}} />
                        <Input placeholder="Amount (ETH)" name="amount" type="number" handleChange={() => {}} />
                        <Input placeholder="Keyword (Gif)" name="keyword" type="text" handleChange={() => {}} />
